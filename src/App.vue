@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <!-- 这里使用 router-view 来显示 WeatherCheck 页面 -->
+  <router-view></router-view>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* 你可以留空或添加全局样式 */
+</style>
